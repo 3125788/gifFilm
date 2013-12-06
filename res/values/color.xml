@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <drawable name="label_color">#FF6BB324</drawable>
+  <drawable name="add_btn_back">#FF6210</drawable>
+</resources>

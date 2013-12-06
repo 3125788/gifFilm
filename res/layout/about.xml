@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+>	
+<ImageView 
+	android:layout_height="fill_parent"    
+	android:layout_width="fill_parent"
+	android:background="@drawable/welcome"
+/>
+<!-- 
+	<RelativeLayout 
+	    android:layout_height="45dp"
+	    android:layout_width="fill_parent"
+	>
+	    <TextView 
+	    	android:layout_height="wrap_content"    
+	    	android:layout_width="wrap_content"
+	    	android:layout_alignParentLeft="true"
+	    	android:text="GIF胶卷"
+	    	android:textSize="20sp"
+	    	android:textStyle="bold"
+	    	android:textColor="#000000"
+	    	android:layout_marginLeft="10dp"
+	    	android:layout_marginTop="5dp"
+	    />
+	</RelativeLayout>	
+	
+	<TextView 
+	    	android:layout_height="wrap_content"    
+	    	android:layout_width="wrap_content"
+	    	android:layout_gravity="center"
+	    	android:text="Coded By :WuZhi"
+	    	android:layout_marginTop="10dp"
+	    	android:textColor="#000000"
+	    	android:textSize="18sp"
+	 />
+		<RelativeLayout 
+		  	android:layout_height="wrap_content"    
+	    	android:layout_width="wrap_content" 
+	    	android:layout_gravity="center"
+	    	android:layout_marginTop="5dp"
+		>
+		<TextView 
+		    android:id="@+id/about_weibo"
+	    	android:layout_height="wrap_content"    
+	    	android:layout_width="wrap_content"
+	    	android:layout_marginTop="10dp"
+	    	android:text="新浪微博: "
+	    	android:textColor="#000000"
+	    	android:textSize="18sp"
+	    	android:layout_alignParentLeft="true"
+	 />
+		<TextView 
+		   android:layout_height="wrap_content"    
+	    	android:layout_width="wrap_content"
+	    	android:layout_toRightOf="@id/about_weibo"
+	    		    	android:layout_marginTop="10dp"
+	    	android:text="明天_你好"
+	    	android:textColor="#000000"
+	    	android:textSize="18sp"
+		 />  
+		</RelativeLayout>
+
+		<RelativeLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center"
+   	    	 android:layout_marginTop="10dp"
+		>
+
+		 <Button
+		     android:id="@+id/about_commend"
+		     android:layout_width="wrap_content"
+		     android:layout_height="wrap_content"
+		     android:layout_centerVertical="true"
+		     android:background="@drawable/about_share"
+			 android:layout_marginRight="10dp"
+		  />
+
+		 <Button
+		     android:id="@+id/about_feedback"
+		     android:layout_width="wrap_content"
+		     android:layout_height="wrap_content"
+		     android:layout_toRightOf="@id/about_commend"
+		     android:background="@drawable/about_feedback"
+		     android:layout_marginLeft="10dp"
+		     />
+    
+		</RelativeLayout>
+ -->
+		
+	
+</LinearLayout>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/signpost-commonshttp4-1.2.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/android-support-v4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/signpost-core-1.2.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

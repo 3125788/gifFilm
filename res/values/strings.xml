@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, WelcomeActivity!</string>
+    <string name="app_name">Gif胶卷</string>
+	    <string-array name="menu_text">
+        <item>设置</item>
+        <item>关于</item>
+        <item>退出</item>
+    </string-array>
+    
+    <string name="DIR_NAME">/GIFjiaojuan/</string>
+
+</resources>

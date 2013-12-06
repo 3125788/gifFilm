@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="170dp"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:visibility="gone"
+>
+	    <ImageButton 
+	     	android:id="@+id/share_btn_renren"
+	     	android:layout_height="48dp"   
+	     	android:layout_width="48dp"
+	     	android:layout_alignParentRight="true"
+	     	android:layout_marginRight="5dp"
+	     	android:src="@drawable/share_icon_renren"
+	     	android:background="@null"
+	     />
+	    <ImageButton 
+	     	android:id="@+id/share_btn_qq"
+	     	android:layout_height="48dp"   
+	     	android:layout_width="48dp"
+	     	android:layout_toLeftOf="@id/share_btn_renren"
+	     	android:layout_marginRight="5dp"
+	     	android:src="@drawable/share_icon_qq"
+	     	android:background="@null"
+	     />
+	    <ImageButton 
+	     	android:id="@+id/share_btn_sina"
+	     	android:layout_height="48dp"   
+	     	android:layout_width="48dp"
+	     	android:layout_toLeftOf="@id/share_btn_qq"
+	     	android:layout_marginRight="5dp"
+	     	android:layout_centerVertical="true"
+	     	android:src="@drawable/share_icon_sina"
+	     	android:background="@null"
+	     />
+</RelativeLayout>

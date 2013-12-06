@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants"
+>
+	<FrameLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	>
+	    <ImageView
+	        android:id="@+id/grid_item_image"
+	        android:layout_width="120dp"
+	        android:layout_height="120dp"
+	        android:padding="2dp"
+	     />
+	    <ImageView 
+	        android:layout_height="32dp"
+	        android:layout_width="wrap_content"
+	        android:layout_gravity="bottom|right"
+	        android:src="@drawable/grid_shadow"
+	        android:layout_marginLeft="3dp"
+	       android:layout_marginBottom="3dp"
+	     />
+	    <ImageView 
+	    	android:id="@+id/grid_item_select" 	
+	    	android:layout_width="30dp"
+	       android:layout_height="30dp"   
+	       android:src="@drawable/btn_check_off_normal"
+	       android:layout_gravity="right|bottom"
+	       android:layout_marginRight="3dp"
+	       android:layout_marginBottom="3dp"
+	     />
+	</FrameLayout>
+</LinearLayout>
